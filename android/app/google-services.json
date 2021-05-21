@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "964243657385",
+    "project_id": "flash-chat-redo-57b9f",
+    "storage_bucket": "flash-chat-redo-57b9f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964243657385:android:94c1a00f39e9a115dd0fb8",
+        "android_client_info": {
+          "package_name": "co.khoa_mai.flash_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964243657385-1iea5m75rrdnju22ft4c861f30jmri4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvWg6wha4pm4VGE5ChIEjmoyxdI3b3ZH0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964243657385-1iea5m75rrdnju22ft4c861f30jmri4r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
