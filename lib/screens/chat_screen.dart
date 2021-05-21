@@ -102,8 +102,8 @@ class MessagesStream extends StatelessWidget {
     return StreamBuilder<QuerySnapshot>(
       stream: _firestore
           .collection('messages')
+          .where('sender', whereIn: ['chronicle@gmail.com', 'khoa@gmail.com'])
           .orderBy('timestamp', descending: true)
-          //.where('sender', whereIn: ['chronicle@gmail.com', 'khoa@gmail.com'])
           .limit(5)
           .snapshots(),
       builder: (context, snapshot) {
